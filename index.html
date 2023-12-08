@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head> 
+        <meta charset= "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src=  "images/logo.png" class="logo">
+                <ul id= "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-house"  onclick="openmenu()"></i>
+            </nav>
+            </div class="header-text">
+                <p>     Computer Science Engineering Graduate  </p>
+                <h1>        Hi,I'm <span> SAIAKSHAY R</span><br> </h1>
+            </div>
+       </div>
+</div>
+<!-- ---------about-----------  --> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src ="images\image.jpeg">
+        
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I graduated with a Bachelor's degree in Computer Science and possess a strong foundation in both front-end and back- end
+                    technologies. I excel at problem-solving, collaborating within cross-functional teams, and maintaining high attention to details. My
+                    academic and practical background has honed my ability to adapt quickly to new technologies and methodologies. I am eager to continue 
+                    learning, growing, and applying my skills in a collaborative and dynamic environment. I am enthusiastic about joining the company, where 
+                    I can leverage my technical expertise, creativity, and dedication to contribute to cutting-edge projects. My goal is to create innovative and 
+                    user-centric solutions that enhance the digital landscape while continuously refining my skills as a developer.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming </span>
+                            <pre>1.Python<br>2.C Programming<br>3.C++ </pre></li>
+                        <li><span>Web Technologies</span><br><pre>1.HTML5<br>2.CSS3<br>3.Javascript ES6<br>4.ReactJs<br>5.NodeJs</pre></li>
+                        <li><span>Database</span><br><pre>1.MySQL<br>2.Oracle</pre></li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BE(Computer Science Engineering)<br>grade:6.62/10</li>
+                            <li><span>2019</span><br>PUC(PCMB)<br>Percentage:61.9/100</li>
+                            <li><span>2017</span><br>SSLC<br>Percentage:86.8/100</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Varcons Technologies</span><br>Position: Intern ( Web developer)<br>
+                 Abstract: <br>• Developed backend features using JavaScript (JS).<br>
+                           • Used Java Script Frameworks React JS and Node JS.<br>
+                           • Designed and implemented responsive frontend using React JS, HTML and CSS.<br>
+                           • Contributed to client-side scripting for web applications.</li>
+                        
+                    </ul>
+                    
+            </div>    
+        </div>
+    </div>
+</div>
+    <!-- -----portfolio -- -->
+    
+        <div id="portfolio">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/download.jpg">
+                    <div class="layer">
+                        <h3>Indian Railways System</h3>
+                        <p>• Used MySQL in backend creation of Database of Indian Railways Systems.<br>
+                            • Gathered information about Indian Railways system using SQL.<br>
+                            • Implemented by using HTML and CSS in front end.<br>
+                          <b>Skills Used</b> :MySQL, HTML, CSS </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download.jpg">
+                    <div class="layer">
+                        <h3>Commercial Gym Website</h3>
+                        <p>• Responsible design of client-side environment using HTML, CSS and React JS.<br>
+                            • Exposed to front development in depth created a user-friendly commercial gym website.<br>
+                           <b></b> Skills Used</b>: HTML, CSS, Java Script, React JS</p>            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/download.jpg">
+                    <div class="layer">
+                        <h3>Prediction of Score for Sports Team</h3>
+                        <p>• Used techniques like Random Forest Algorithm, to achieve an accuracy of 93.6% in predicting the accuracy of the system<br>
+                           • Developed a predictive analysis of the scores with IPL Data, achieved good results.<br>
+                           <b> Skills Used</b>: Python, Machine Learning, Random Forest algorithm, Pandas, Tensor Flow, scikit<br></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------contact----------->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>saiakshay30@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> 9353946092 </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/saiakshay-r-469252226?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                 <a href="images\SAIAKSHAY R RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Made with<i class="fa-solid fa-heart"></i>by  saiakshay.</p>
+    </div>
+</div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzMQ7X_qpYVV8c5FKJHN4t1jWBLSOKj6FbMnRzSw8d1ZJq2GtPcOZ3HWHDB4NuXNDDOhg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+     </html>
